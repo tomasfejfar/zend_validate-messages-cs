@@ -75,15 +75,15 @@ return array(
     "'%value%' must contain only digits" => "'%value%' musí obsahovat jen číslice",
     "'%value%' is an empty string" => "'%value%' je prázdný řetězec",
 
-    // Zend_Validate_EmailAddress //@todo
+    // Zend_Validate_EmailAddress
     "Invalid type given. String expected" => "Chybný typ. Byl očekáván řetězec",
     "'%value%' is no valid email address in the basic format local-part@hostname" => "'%value%' není platná e-mailová adresa v základním tvaru local-part@hostname",
     "'%hostname%' is no valid hostname for email address '%value%'" => "'%hostname%' není platné hostname pro emailovou adresu '%value%'",
     "'%hostname%' does not appear to have a valid MX record for the email address '%value%'" => "'%hostname%' neobsahuje platný MX záznam pro e-mailovou adresu '%value%'",
-    "'%hostname%' is not in a routable network segment. The email address '%value%' should not be resolved from public network" => "'%hostname%' is not in a routable network segment. The email address '%value%' should not be resolved from public network",
-    "'%localPart%' can not be matched against dot-atom format" => "'%localPart%' can not be matched against dot-atom format",
-    "'%localPart%' can not be matched against quoted-string format" => "'%localPart%' can not be matched against quoted-string format",
-    "'%localPart%' is no valid local part for email address '%value%'" => "'%localPart%' is no valid local part for email address '%value%'",
+    "'%hostname%' is not in a routable network segment. The email address '%value%' should not be resolved from public network" => "'%hostname%' není v směrovatelném úseku sítě. E-mailová adresa '%value%' by neměla být požadována z veřejné sítě",
+    "'%localPart%' can not be matched against dot-atom format" => "'%localPart%' can not be matched against dot-atom format", //@todo
+    "'%localPart%' can not be matched against quoted-string format" => "'%localPart%' can not be matched against quoted-string format", //@todo
+    "'%localPart%' is no valid local part for email address '%value%'" => "'%localPart%' není platná 'local part' pro e-mailovou adresu '%value%'",
     "'%value%' exceeds the allowed length" => "'%value%' překročil dovolenou délku",
 
     // Zend_Validate_File_Count
@@ -169,7 +169,7 @@ return array(
     "File '%value%' was not uploaded" => "Soubor '%value%' nebyl nahrán",
     "No temporary directory was found for file '%value%'" => "Pro soubor '%value%' nebyl nalezen žádný dočasný adresář",
     "File '%value%' can't be written" => "Soubor '%value%' nemůže být zapsán",
-    "A PHP extension returned an error while uploading the file '%value%'" => "Rozšíření PHP vrátilo během nahrávání souboru '%value%' chybu",
+    "A PHP extension returned an error while uploading the file '%value%'" => "Rozšíření PHP vrátilo chybu během nahrávání souboru '%value%'",
     "File '%value%' was illegally uploaded. This could be a possible attack" => "Soubor '%value%' byl nedovoleně nahrán. Může to být útok",
     "File '%value%' was not found" => "Soubor '%value%' nebyl nalezen",
     "Unknown error while uploading file '%value%'" => "Během nahrávání souboru '%value%' došlo k chybě",
