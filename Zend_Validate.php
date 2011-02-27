@@ -58,12 +58,12 @@ return array(
     "Invalid type given. String expected" => "Chybný typ. Byl očekáván řetězec",
     "'%value%' contains an invalid amount of digits" => "'%value%' obsahuje neplatný počet číslic",
     "'%value%' is not from an allowed institute" => "'%value%' není od povolené společnosti",
-    "'%value%' seems to be an invalid creditcard number" => "'%value%' vypadá jako neplatné číslo kreditní karty",
+    "'%value%' seems to be an invalid creditcard number" => "'%value%' není platné číslo kreditní karty",
     "An exception has been raised while validating '%value%'" => "Během validace '%value%' byla vyhozena výjimka",
 
     // Zend_Validate_Date
     "Invalid type given. String, integer, array or Zend_Date expected" => "Chybný typ. Byl očekáván řetězec, číslo, pole nebo Zend_Date",
-    "'%value%' does not appear to be a valid date" => "'%value%' pravděpodobně není platné datum",
+    "'%value%' does not appear to be a valid date" => "'%value%' není platné datum",
     "'%value%' does not fit the date format '%format%'" => "'%value%' nesedí do formátu data '%format%'",
 
     // Zend_Validate_Db_Abstract
@@ -77,7 +77,7 @@ return array(
 
     // Zend_Validate_EmailAddress
     "Invalid type given. String expected" => "Chybný typ. Byl očekáván řetězec",
-    "'%value%' is no valid email address in the basic format local-part@hostname" => "'%value%' není platná e-mailová adresa v základním tvaru local-part@hostname",
+    "'%value%' is no valid email address in the basic format local-part@hostname" => "'%value%' není platná e-mailová adresa ve formátu local-part@hostname",
     "'%hostname%' is no valid hostname for email address '%value%'" => "'%hostname%' není platné hostname pro emailovou adresu '%value%'",
     "'%hostname%' does not appear to have a valid MX record for the email address '%value%'" => "'%hostname%' neobsahuje platný MX záznam pro e-mailovou adresu '%value%'",
     "'%hostname%' is not in a routable network segment. The email address '%value%' should not be resolved from public network" => "'%hostname%' není v směrovatelném úseku sítě. E-mailová adresa '%value%' by neměla být požadována z veřejné sítě",
@@ -92,7 +92,7 @@ return array(
 
     // Zend_Validate_File_Crc32
     "File '%value%' does not match the given crc32 hashes" => "Soubor '%value%' neodpovídá zadanému crc32 hashi",
-    "A crc32 hash could not be evaluated for the given file" => "crc32 hash nemohl být pro zadaný soubor vypočítán",
+    "A crc32 hash could not be evaluated for the given file" => "Pro zadaný soubor nemoh být vypočítán crc32 hash",
     "File '%value%' is not readable or does not exist" => "Soubor '%value%' buď není čitelný nebo neexistuje",
 
     // Zend_Validate_File_ExcludeExtension
@@ -150,7 +150,7 @@ return array(
     "File '%value%' is not readable or does not exist" => "Soubor '%value%' buď není čitelný nebo neexistuje",
 
     // Zend_Validate_File_NotExists
-    "File '%value%' exists" => "Soubor '%value%' existuje",
+    "File '%value%' exists" => "Soubor '%value%' již existuje",
 
     // Zend_Validate_File_Sha1
     "File '%value%' does not match the given sha1 hashes" => "Soubor '%value%' neodpovídá danému sha1 hashi",
@@ -203,9 +203,9 @@ return array(
     "'%value%' appears to be a DNS hostname but the given punycode notation cannot be decoded" => "'%value%' appears to be a DNS hostname but the given punycode notation cannot be decoded",
 
     // Zend_Validate_Iban
-    "Unknown country within the IBAN '%value%'" => "Unknown country within the IBAN '%value%'",
+    "Unknown country within the IBAN '%value%'" => "Neznámý stát v IBAN '%value%'",
     "'%value%' has a false IBAN format" => "'%value%' není platný formát IBAN",
-    "'%value%' has failed the IBAN check" => "'%value%' neprošla kontrolou IBANu",
+    "'%value%' has failed the IBAN check" => "'%value%' neprošla kontrolou IBAN",
 
     // Zend_Validate_Identical
     "The two given tokens do not match" => "Zadané položky nejsou shodné",
@@ -230,7 +230,7 @@ return array(
     "'%value%' is not less than '%max%'" => "'%value%' není méně než '%max%'",
 
     // Zend_Validate_NotEmpty
-    "Invalid type given. String, integer, float, boolean or array expected" => "Chybný typ. Byl očekáván řetězec, celé nebo desetinné číslo boolean nebo pole",
+    "Invalid type given. String, integer, float, boolean or array expected" => "Chybný typ. Byl očekáván řetězec, celé nebo desetinné číslo, boolean nebo pole",
     "Value is required and can't be empty" => "Položka je povinná a tedy nemůže být prázdná",
 
     // Zend_Validate_PostCode
