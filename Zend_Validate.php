@@ -49,7 +49,7 @@ return array(
     "An exception has been raised within the callback" => "Během volání byla vyhozena výjimka",
 
     // Zend_Validate_Ccnum
-    "'%value%' must contain between 13 and 19 digits" => "'%value%' musí obsahovat mezi 13 a 19 číslicemi",
+    "'%value%' must contain between 13 and 19 digits" => "'%value%' musí obsahovat 13 až 19 číslic",
     "Luhn algorithm (mod-10 checksum) failed on '%value%'" => "Luhnův algoritmus (kontrolní součet mod-10) neprošel na '%value%'",
 
     // Zend_Validate_CreditCard
@@ -100,7 +100,7 @@ return array(
     "File '%value%' is not readable or does not exist" => "Soubor '%value%' buď není čitelný nebo neexistuje",
 
     // Zend_Validate_File_ExcludeMimeType
-    "File '%value%' has a false mimetype of '%type%'" => "Soubor '%value%' má nesprávný mimetype '%type%'",
+    "File '%value%' has a false mimetype of '%type%'" => "Soubor '%value%' má nesprávný mimetyp '%type%'",
     "The mimetype of file '%value%' could not be detected" => "Mimetyp souboru '%value%' nebylo možné zjistit",
     "File '%value%' is not readable or does not exist" => "Soubor '%value%' buď není čitelný nebo neexistuje",
 
@@ -190,22 +190,22 @@ return array(
     "Invalid type given. String expected" => "Chybný typ. Byl očekáván řetězec",
     "'%value%' has not only hexadecimal digit characters" => "'%value%' neobsahuje jen znaky hexadecimálních čísel.",
 
-    // Zend_Validate_Hostname //@todo
+    // Zend_Validate_Hostname
     "Invalid type given. String expected" => "Chybný typ. Byl očekáván řetězec",
     "'%value%' appears to be an IP address, but IP addresses are not allowed" => "'%value%' vypadá jako IP adresa, ale ty nejsou dovoleny",
-    "'%value%' appears to be a DNS hostname but cannot match TLD against known list" => "'%value%' appears to be a DNS hostname but cannot match TLD against known list",
-    "'%value%' appears to be a DNS hostname but contains a dash in an invalid position" => "'%value%' appears to be a DNS hostname but contains a dash in an invalid position",
-    "'%value%' appears to be a DNS hostname but cannot match against hostname schema for TLD '%tld%'" => "'%value%' appears to be a DNS hostname but cannot match against hostname schema for TLD '%tld%'",
-    "'%value%' appears to be a DNS hostname but cannot extract TLD part" => "'%value%' appears to be a DNS hostname but cannot extract TLD part",
-    "'%value%' does not match the expected structure for a DNS hostname" => "'%value%' does not match the expected structure for a DNS hostname",
-    "'%value%' does not appear to be a valid local network name" => "'%value%' does not appear to be a valid local network name",
-    "'%value%' appears to be a local network name but local network names are not allowed" => "'%value%' appears to be a local network name but local network names are not allowed",
+    "'%value%' appears to be a DNS hostname but cannot match TLD against known list" => "'%value%' vypadá jako hostname, ale nemohl být ověřen proti známým TLD",
+    "'%value%' appears to be a DNS hostname but contains a dash in an invalid position" => "'%value%' vypadá jako hostname, ale obsahuje pomlčku na nedovolené pozici",
+    "'%value%' appears to be a DNS hostname but cannot match against hostname schema for TLD '%tld%'" => "'%value%' vypadá jako hostname, ale neodpovídá formátu hostname pro '%tld%'",
+    "'%value%' appears to be a DNS hostname but cannot extract TLD part" => "'%value%' vypadá jako hostname, nemohu ale určit TLD",
+    "'%value%' does not match the expected structure for a DNS hostname" => "'%value%' neodpovídá očekáváné struktuře hostname",
+    "'%value%' does not appear to be a valid local network name" => "'%value%' nevypadá jako platné síťové jméno",
+    "'%value%' appears to be a local network name but local network names are not allowed" => "'%value%' vypadá jako hostname lokální sítě, ty ale nejsou povoleny",
     "'%value%' appears to be a DNS hostname but the given punycode notation cannot be decoded" => "'%value%' appears to be a DNS hostname but the given punycode notation cannot be decoded",
 
     // Zend_Validate_Iban
     "Unknown country within the IBAN '%value%'" => "Neznámý stát v IBAN '%value%'",
     "'%value%' has a false IBAN format" => "'%value%' není platný formát IBAN",
-    "'%value%' has failed the IBAN check" => "'%value%' neprošla kontrolou IBAN",
+    "'%value%' has failed the IBAN check" => "'%value%' neprošlo kontrolou IBAN",
 
     // Zend_Validate_Identical
     "The two given tokens do not match" => "Zadané položky nejsou shodné",
