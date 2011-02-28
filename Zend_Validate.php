@@ -81,8 +81,8 @@ return array(
     "'%hostname%' is no valid hostname for email address '%value%'" => "'%hostname%' není platné hostname pro emailovou adresu '%value%'",
     "'%hostname%' does not appear to have a valid MX record for the email address '%value%'" => "'%hostname%' neobsahuje platný MX záznam pro e-mailovou adresu '%value%'",
     "'%hostname%' is not in a routable network segment. The email address '%value%' should not be resolved from public network" => "'%hostname%' není v směrovatelném úseku sítě. E-mailová adresa '%value%' by neměla být požadována z veřejné sítě",
-    "'%localPart%' can not be matched against dot-atom format" => "'%localPart%' can not be matched against dot-atom format", //@todo
-    "'%localPart%' can not be matched against quoted-string format" => "'%localPart%' can not be matched against quoted-string format", //@todo
+    "'%localPart%' can not be matched against dot-atom format" => "'%localPart%' nemůže být porovnán proti dot-atom formátu",
+    "'%localPart%' can not be matched against quoted-string format" => "'%localPart%' nemůže být porovnán proti quoted-string formátu",
     "'%localPart%' is no valid local part for email address '%value%'" => "'%localPart%' není platná 'local part' pro e-mailovou adresu '%value%'",
     "'%value%' exceeds the allowed length" => "'%value%' překročil dovolenou délku",
 
