@@ -26,12 +26,12 @@
 return array(
     // Zend_Validate_Alnum
     "Invalid type given. String, integer or float expected" => "Chybný typ. Byl očekáván řetězec nebo celé či desetinné číslo",
-    "'%value%' contains characters which are non alphabetic and no digits" => "'%value%' neobsahuje pouze písmena a číslice",
+    "'%value%' contains characters which are non alphabetic and no digits" => "'%value%' obsahuje i jiné znaky než písmena a číslice",
     "'%value%' is an empty string" => "'%value%' je prázdný řetězec",
 
     // Zend_Validate_Alpha
     "Invalid type given. String expected" => "Chybný typ. Byl očekáván řetězec",
-    "'%value%' contains non alphabetic characters" => "'%value%' neobsahuje pouze písmena",
+    "'%value%' contains non alphabetic characters" => "'%value%' obsahuje i jiné znaky než písmena",
     "'%value%' is an empty string" => "'%value%' je prázdný řetězec",
 
     // Zend_Validate_Barcode
@@ -45,12 +45,12 @@ return array(
     "'%value%' is not strictly between '%min%' and '%max%'" => "'%value%' není ostře mezi '%min%' a '%max%'",
 
     // Zend_Validate_Callback
-    "'%value%' is not valid" => "'%value%' není platné",
-    "An exception has been raised within the callback" => "Během volání byla vyhozena výjimka",
+    "'%value%' is not valid" => "Hodnota '%value%' není platná",
+    "An exception has been raised within the callback" => "Během volání byla vyvolána výjimka",
 
     // Zend_Validate_Ccnum
     "'%value%' must contain between 13 and 19 digits" => "'%value%' musí obsahovat 13 až 19 číslic",
-    "Luhn algorithm (mod-10 checksum) failed on '%value%'" => "Luhnův algoritmus (kontrolní součet mod-10) neprošel na '%value%'",
+    "Luhn algorithm (mod-10 checksum) failed on '%value%'" => "Luhnův algoritmus (kontrolní součet mod-10) nevyšel pro '%value%'",
 
     // Zend_Validate_CreditCard
     "'%value%' seems to contain an invalid checksum" => "'%value%' obsahuje neplatný kontrolní součet",
@@ -59,12 +59,12 @@ return array(
     "'%value%' contains an invalid amount of digits" => "'%value%' obsahuje neplatný počet číslic",
     "'%value%' is not from an allowed institute" => "'%value%' není od povolené společnosti",
     "'%value%' seems to be an invalid creditcard number" => "'%value%' není platné číslo kreditní karty",
-    "An exception has been raised while validating '%value%'" => "Během validace '%value%' byla vyhozena výjimka",
+    "An exception has been raised while validating '%value%'" => "Během validace '%value%' byla vyvolána výjimka",
 
     // Zend_Validate_Date
     "Invalid type given. String, integer, array or Zend_Date expected" => "Chybný typ. Byl očekáván řetězec, číslo, pole nebo Zend_Date",
     "'%value%' does not appear to be a valid date" => "'%value%' není platné datum",
-    "'%value%' does not fit the date format '%format%'" => "'%value%' nesedí do formátu data '%format%'",
+    "'%value%' does not fit the date format '%format%'" => "'%value%' neodpovídá formátu data '%format%'",
 
     // Zend_Validate_Db_Abstract
     "No record matching '%value%' was found" => "Nebyl nalezen žádný záznam odpovídající '%value%'",
@@ -170,7 +170,7 @@ return array(
     "No temporary directory was found for file '%value%'" => "Pro soubor '%value%' nebyl nalezen žádný dočasný adresář",
     "File '%value%' can't be written" => "Soubor '%value%' nemůže být zapsán",
     "A PHP extension returned an error while uploading the file '%value%'" => "Rozšíření PHP vrátilo chybu během nahrávání souboru '%value%'",
-    "File '%value%' was illegally uploaded. This could be a possible attack" => "Soubor '%value%' byl nedovoleně nahrán. Může to být útok",
+    "File '%value%' was illegally uploaded. This could be a possible attack" => "Soubor '%value%' byl nedovoleně nahrán. Může se jednat o útok",
     "File '%value%' was not found" => "Soubor '%value%' nebyl nalezen",
     "Unknown error while uploading file '%value%'" => "Během nahrávání souboru '%value%' došlo k chybě",
 
@@ -200,7 +200,7 @@ return array(
     "'%value%' does not match the expected structure for a DNS hostname" => "'%value%' neodpovídá očekáváné struktuře hostname",
     "'%value%' does not appear to be a valid local network name" => "'%value%' nevypadá jako platné síťové jméno",
     "'%value%' appears to be a local network name but local network names are not allowed" => "'%value%' vypadá jako hostname lokální sítě, ty ale nejsou povoleny",
-    "'%value%' appears to be a DNS hostname but the given punycode notation cannot be decoded" => "'%value%' appears to be a DNS hostname but the given punycode notation cannot be decoded",
+    "'%value%' appears to be a DNS hostname but the given punycode notation cannot be decoded" => "'%value%' vypadá jako DNS hostname ale zadanou punycode notaci není možné dekódovat",
 
     // Zend_Validate_Iban
     "Unknown country within the IBAN '%value%'" => "Neznámý stát v IBAN '%value%'",
@@ -231,7 +231,7 @@ return array(
 
     // Zend_Validate_NotEmpty
     "Invalid type given. String, integer, float, boolean or array expected" => "Chybný typ. Byl očekáván řetězec, celé nebo desetinné číslo, boolean nebo pole",
-    "Value is required and can't be empty" => "Položka je povinná a tedy nemůže být prázdná",
+    "Value is required and can't be empty" => "Položka je povinná a nesmí být prázdná",
 
     // Zend_Validate_PostCode
     "Invalid type given. String or integer expected" => "Chybný typ. Byl očekáván řetězec nebo celé číslo",
